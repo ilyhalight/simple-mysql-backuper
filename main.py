@@ -12,7 +12,6 @@ log = logging.getLogger('backuper')
 settings = load_cfg('settings.cfg')['main']
 BACKUP_DIR = 'backups'
 TODAY_NOW = datetime.now().strftime("%d.%m.%Y %H.%M.%S")
-IGNORE_DBS = ['fame_forum']
 
 def create_backup_dir():
     if not os.path.isdir(BACKUP_DIR):
