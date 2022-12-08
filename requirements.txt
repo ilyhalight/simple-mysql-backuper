@@ -1,0 +1,4 @@
+toml>=0.10.2
+python-dotenv>=0.18.0
+rich>=12.3.0
+aiomysql>=0.1.1
